@@ -1,0 +1,27 @@
+# Midpoint formula calculator
+
+import math
+
+# Midpoint formula: m = ( (x1 + x2) / 2  ,  (y1 + y2) / 2 )
+
+# Define the variables
+
+x1 = 6
+y1 = 9
+x2 = 19
+y2 = 4
+
+
+g1 = x1 + x2
+p1 = (float)(g1)/2
+
+g2 = y1 + y2
+p2 = (float)(g2)/2
+
+print('\n')
+
+print('M = ({0} , {1})'.format(p1, p2))
+
+print('\n')
+
+# H. Klawa
