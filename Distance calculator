@@ -1,0 +1,31 @@
+# Distance formula calculator
+
+import math
+
+# Distance formula: d = (root)(x2 - x1)^2 + (y2 - y1)^2
+
+# Define the variables
+
+x1 = 3
+y1 = 4
+x2 = 5
+y2 = 7
+
+
+g1 = x2 - x1
+p1 = g1 ** 2
+
+g2 = y2 - y1
+p2 = g2 ** 2
+
+a = p1 + p2
+
+d = math.sqrt(a)
+
+print('\n')
+
+print('D = {0}'.format(d))
+
+print('\n')
+
+# H. Klawa
