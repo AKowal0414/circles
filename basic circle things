@@ -1,0 +1,51 @@
+# Basic circle stuff
+# Define r, h, and k
+
+
+
+r = 15
+h = 3
+k = 4
+
+xx = 'x'
+yy = 'y'
+
+
+# Ignore this
+g1 = ('(x - {0})'.format(h))
+g2 = ('(y - {0})'.format(k))
+g3 = r^2
+equation = g1 + g2
+p = r**2
+
+print('\n')
+
+print('Equations of the circle:')
+
+print('\n')
+print('\n')
+
+# Area of a circle (pi * r^2)
+print('Area of the circle')
+pi = 3.1415926535
+area = pi * r ** 2
+print(area)
+
+print('\n')
+
+# Circumfrence of a circle (2pi * r)
+print('Circumfrence of the circle')
+circumfrence = 2 * pi * r
+print(circumfrence)
+
+print ('\n')
+
+# Equation of a circle '(x - h)^2 + (y - k)^2 = r^2'
+print('Equation of the circle')
+
+print('{0} + {1} = {2}^2'.format(g1, g2,r))
+print('{0}^2 = {1}'.format(r, p))
+
+print ('\n')
+
+# H. Klawa
